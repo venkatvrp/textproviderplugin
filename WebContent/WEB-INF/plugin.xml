@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.portal.plugin.wcm.CustomTextProviderPlugin" name="Custom Text Provider"
+	version="1.0.0" provider-name="Custom">
+	<extension point="com.ibm.workplace.wcm.api.TextProvider" id="CustomTextProviderPlugin">
+		<provider class="com.portal.plugin.wcm.CustomTextProviderPlugin" />
+	</extension>
+</plugin>
